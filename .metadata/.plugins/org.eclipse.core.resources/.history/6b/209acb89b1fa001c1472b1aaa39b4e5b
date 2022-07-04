@@ -1,0 +1,35 @@
+package com.example.board.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.board.service.BoardService;
+
+import lombok.extern.log4j.Log4j;
+
+/*
+ * Task		URL					Method		Parameter		Form			URL이동
+ * 
+ * 전체 등록	/board/list			GET								입력화면 필요	이동	
+ * 등록 처리	/board/register	POST			모든 항목			
+ * 조회		/board/read		GET			bno				입력화면 필요	이동
+ * 삭제 처리	/board/remove	GET			bno				입력화면 필요	이동
+ * 수정 처리	/board/modify		POST			모든 항목
+ */
+
+@Controller
+@Log4j
+@RequestMapping("/board/*")
+public class BoardController {
+	@Autowired
+	private BoardService boardService;
+	
+	@GetMapping("/list")
+	public void list(Model model) {
+		log.info("list...");
+		model.addAttribute("boardService", boardService.getList());
+	}
+}

@@ -1,0 +1,193 @@
+2022-07-04 14:34:22.493 - Create display
+2022-07-04 14:34:22.669 - DBeaver 22.0.4.202205011839 is starting
+2022-07-04 14:34:22.670 - OS: Windows 10 10.0 (amd64)
+2022-07-04 14:34:22.670 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2022-07-04 14:34:22.670 - Install path: 'C:\dbeaver-ce-22.0.4-win32.win32.x86_64\dbeaver'
+2022-07-04 14:34:22.670 - Instance path: 'file:/C:/SpringFramework/workspace/script/'
+2022-07-04 14:34:22.670 - Memory available 64Mb/1024Mb
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.81.202205011839]
+2022-07-04 14:34:22.692 - Starting RMI server at 46377
+2022-07-04 14:34:22.750 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.16.400.v20220222-1128]
+> Start Eclipse 응용 프로그램 서비스 [org.eclipse.e4.core.services 2.3.100.v20210910-0640]
+> Start Eclipse 사용자 인터페이스 응용 프로그램 서비스 [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
+> Start EMF XML/XMI 퍼시스턴스 [org.eclipse.emf.ecore.xmi 2.16.0.v20190528-0725]
+> Start Eclipse CSS SWT 테마 지원 [org.eclipse.e4.ui.css.swt.theme 0.13.0.v20201026-1147]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.4.400.v20211102-0453]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.15.400.v20220308-0630]
+> Start Eclipse 바인딩 지원 [org.eclipse.e4.ui.bindings 0.13.100.v20210722-1426]
+> Start Eclipse 의존성 삽입 확장 [org.eclipse.e4.core.di.extensions 0.17.100.v20210910-0640]
+> Start Eclipse CSS SWT 지원 [org.eclipse.e4.ui.css.swt 0.14.400.v20211026-1534]
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.96.202205011839]
+> Start Java Native Access [com.sun.jna 5.8.0.v20210503-0343]
+2022-07-04 14:34:32.015 - Configure workbench window
+> Start 도움말 시스템 코어 [org.eclipse.help 3.9.100.v20210721-0601]
+2022-07-04 14:34:32.307 - Create actions
+2022-07-04 14:34:32.409 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-07-04 14:34:32.410 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-07-04 14:34:32.411 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-07-04 14:34:33.228 - Initialize workbench window
+2022-07-04 14:34:33.233 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.14.300.v20210913-0815]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.16.400.v20220218-1619]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.81.202205011839]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.71.202205011839]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.81.202205011839]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.9.300.v20220204-0611]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.6.1000.v20201020-1107]
+> Start Equinox Java 인증 및 권한 부여 서비스 (JAAS) [org.eclipse.equinox.security 1.3.900.v20220108-1321]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.4.0.v20210426-0838]
+> Start 인터넷 연결 관리 [org.eclipse.core.net 1.3.1100.v20210424-0724]
+2022-07-04 14:34:36.808 - Script dialect 'databricks' not found in registry (for data source provider databricks). Use default.
+2022-07-04 14:34:36.843 - Loading user drivers configuration from 'C:\SpringFramework\workspace\script\.metadata\.plugins\org.jkiss.dbeaver.core\drivers.xml'
+2022-07-04 14:34:36.855 - Total database drivers: 99 (99)
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.118.202205011839]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.87.202205011839]
+> Start Draw2d [org.eclipse.draw2dl 3.12.100.20220207122412]
+> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20220207122412]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.41.202205011839]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.41.202205011839]
+> Start 콘솔 [org.eclipse.ui.console 3.11.100.v20210721-1355]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.19.0.v20220125-2302]
+2022-07-04 14:34:38.550 - Connect with 'localhost' (oracle_thin-181b445480b-2dcd8f7c41c4c43b)
+> Start DBeaver Oracle Support [org.jkiss.dbeaver.ext.oracle 2.1.166.202205011839]
+2022-07-04 14:34:38.611 - Execution context opened (localhost; Main; 0)
+2022-07-04 14:34:39.428 - Open [https://dbeaver.io/product/version.xml]
+2022-07-04 14:34:39.821 - Execution context opened (localhost; Metadata; 1)
+2022-07-04 14:34:40.141 - Connected (oracle_thin-181b445480b-2dcd8f7c41c4c43b, Oracle JDBC driver [11.2.0.2.0])
+2022-07-04 14:34:40.152 - Execution context opened (localhost; SQLEditor <board.sql>; 2)
+2022-07-04 21:17:53.314 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:53.569 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](264)])
+2022-07-04 21:17:53.626 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:53.678 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](286)])
+2022-07-04 21:17:53.678 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](286)])
+2022-07-04 21:17:53.811 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](301)])
+2022-07-04 21:17:53.860 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](312)])
+2022-07-04 21:17:53.900 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](325)])
+2022-07-04 21:17:54.010 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](340)])
+2022-07-04 21:17:54.065 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:54.116 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:54.215 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:54.314 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](392)])
+2022-07-04 21:17:54.589 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](420)])
+2022-07-04 21:17:54.640 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](431)])
+2022-07-04 21:17:54.693 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:54.912 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:54.912 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:55.024 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:55.239 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:55.611 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:55.728 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](563)])
+2022-07-04 21:17:55.891 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:56.190 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:56.370 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](624)])
+2022-07-04 21:17:56.541 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](639)])
+2022-07-04 21:17:56.705 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:56.776 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:56.776 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:56.854 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:56.929 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:59.289 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](697)])
+2022-07-04 21:17:59.370 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](708)])
+2022-07-04 21:17:59.444 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:59.444 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:59.521 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:59.721 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](747)])
+2022-07-04 21:17:59.794 - Internal error: multiple data reads started ([])
+2022-07-04 21:17:59.873 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](767)])
+2022-07-04 21:17:59.943 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](778)])
+2022-07-04 21:18:00.143 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](793)])
+2022-07-04 21:18:00.360 - Internal error: multiple data reads started ([Read data [SELECT * FROM TBL_BOARD](808)])
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.68.202205011839]
+2022-07-04 21:19:30.546 - Can't get column 'PLUGGED_IN': 부적합한 열 이름
+2022-07-04 21:20:16.763 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](883)])
+2022-07-04 21:20:16.895 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](900)])
+2022-07-04 21:20:17.139 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](935)])
+2022-07-04 21:20:17.189 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](946)])
+2022-07-04 21:20:17.324 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:17.373 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](970)])
+2022-07-04 21:20:17.433 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:17.555 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](996)])
+2022-07-04 21:20:17.639 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:17.685 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:17.884 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:17.884 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:18.028 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1072)])
+2022-07-04 21:20:18.028 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1072)])
+2022-07-04 21:20:18.205 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1096)])
+2022-07-04 21:20:18.339 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:18.386 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:18.452 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:18.503 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:18.555 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:18.603 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1156)])
+2022-07-04 21:20:18.765 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:18.823 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1182)])
+2022-07-04 21:20:18.882 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1193)])
+2022-07-04 21:20:18.936 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1204)])
+2022-07-04 21:20:19.320 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:19.381 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:19.547 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:19.621 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1280)])
+2022-07-04 21:20:19.786 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:19.849 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1304)])
+2022-07-04 21:20:19.917 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1319)])
+2022-07-04 21:20:19.917 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1319)])
+2022-07-04 21:20:20.088 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1334)])
+2022-07-04 21:20:20.231 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:20.304 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:20.437 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1385)])
+2022-07-04 21:20:20.516 - Internal error: multiple data reads started ([])
+2022-07-04 21:20:20.799 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1418)])
+2022-07-04 21:20:20.986 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1433)])
+2022-07-04 21:20:21.065 - Internal error: multiple data reads started ([Read data [SELECT /*+ INDEX_DESC(TBL_BOARD, SYS_C007041)*/
+BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE 
+FROM TBL_BOARD](1446)])
+2022-07-04 21:51:00.912 - Execution context closed (localhost, 2)
+2022-07-04 21:51:01.018 - DBeaver is stopping
+2022-07-04 21:51:01.018 - Stop RMI server
+2022-07-04 21:51:01.022 - RMI controller has been stopped
+2022-07-04 21:51:01.070 - DBeaver shutdown completed

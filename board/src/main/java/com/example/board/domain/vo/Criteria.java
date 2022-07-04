@@ -1,0 +1,16 @@
+package com.example.board.domain.vo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Criteria {
+	private int pageNum;
+	private int amount;
+	
+	public Criteria() {
+		//만약에 아무것도 전달을 안하면 한 페이지당 10개씩 현재 1페이지를 보여줘라 
+		this(1, 10);
+	}
+}
