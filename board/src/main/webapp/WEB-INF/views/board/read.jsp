@@ -24,7 +24,7 @@
 						<p>게시글 상세보기</p>
 					</header>
 					<!-- Table -->
-					<h3><a href="/board/list" class="button small">목록 보기</a></h3>
+					<h3><a href="/board/list${criteria.params}" class="button small">목록 보기</a></h3>
 					<div class="content">
 						<div class="form">
 							<form action="/board/remove">
@@ -49,7 +49,7 @@
 								<ul class="actions special">
 									<li>
 										<!-- 수정은 페이지 이동이 있음(get방식 modify) / 삭제는 이동이 없음(삭제후 목록으로 돌아가는 것은 redirect로 헀음) -->
-										<input type="button" class="button" value="수정" onclick="location.href='/board/modify?bno=${board.bno}'"/>
+										<input type="button" class="button" value="수정" onclick="location.href='/board/modify${criteria.params}&bno=${board.bno}'"/>
 										<input type="submit" class="button" value="삭제"/>
 									</li>
 								</ul>

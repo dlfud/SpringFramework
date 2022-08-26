@@ -24,11 +24,12 @@
 						<p>게시글 수정하기</p>
 					</header>
 					<!-- Table -->
-					<h3><a href="/board/list" class="button small">목록 보기</a></h3>
+					<h3><a href="/board/list${criteria.params}" class="button small">목록 보기</a></h3>
 					<div class="content">
 						<div class="form">
 							<!-- get방식으로 가면 안되므로 -->
 							<form action="/board/modify" method="post">
+								<input type="hidden" name="pageNum" value="${criteria.pageNum}">
 								<div class="fields">
 									<div class="field">
 										<h4>번호</h4>

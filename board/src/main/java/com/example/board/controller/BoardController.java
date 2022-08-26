@@ -12,6 +12,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.board.domain.vo.BoardVO;
 import com.example.board.domain.vo.Criteria;
+import com.example.board.domain.vo.PageDTO;
 import com.example.board.service.BoardService;
 
 import lombok.extern.log4j.Log4j;
@@ -37,6 +38,7 @@ public class BoardController {
 	public void list(Criteria criteria, Model model) {
 		log.info("list...");
 		model.addAttribute("boardList", boardService.getList(criteria));
+		model.addAttribute("pageDTO", new PageDTO(boardService.getTotal(), criteria));
 	}
 	
 	//redirect : 클라이언트의 요청에 의해 서버의 DB에 변화가 생기는 작업
@@ -62,7 +64,7 @@ public class BoardController {
 	
 	//get 방식 modify : 수정완료 버튼이 아닌 수정하기 버튼을 눌렀을 때
 	@GetMapping({"/read", "/modify"})
-	public void read(Long bno, HttpServletRequest request, Model model) {
+	public void read(Criteria criteria, Long bno, HttpServletRequest request, Model model) {
 		String url = request.getRequestURI();
 		
 		log.info(url.substring(url.lastIndexOf("/")) + " : " + bno);
@@ -81,11 +83,12 @@ public class BoardController {
 	}
 	
 	@PostMapping("/modify")
-	public String modify(BoardVO boardVO, RedirectAttributes rttr) {
+	public String modify(Criteria criteria, BoardVO boardVO, RedirectAttributes rttr) {
 		log.info("/modify : " + boardVO);
 		if(boardService.modify(boardVO)) {
 			rttr.addFlashAttribute("result", "success");
 		}
+		rttr.addAttribute("pageNum", criteria.getPageNum());
 		return "redirect:/board/list";
 	}
 	
