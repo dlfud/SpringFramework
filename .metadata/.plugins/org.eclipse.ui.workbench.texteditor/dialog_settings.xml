@@ -6,12 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="boardDAO"/>
+		<item key="selection" value="replyService"/>
 		<list key="findhistory">
+			<item value="replyDAO"/>
+			<item value="int"/>
 			<item value="boardMapper"/>
 			<item value="https://code.jquery.com/jquery-3.6.0.min.js"/>
 		</list>
 		<list key="replacehistory">
+			<item value="replyService"/>
+			<item value="boolean"/>
 			<item value="boardDAO"/>
 		</list>
 	</section>

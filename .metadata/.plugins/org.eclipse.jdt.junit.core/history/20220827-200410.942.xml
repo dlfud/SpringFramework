@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ReplyServiceTests" project="board" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.board.service.ReplyServiceTests" time="0.056">
-    <testcase name="findAllByBNOTest" classname="com.example.board.service.ReplyServiceTests" time="0.053"/>
-    <testcase name="findByRNOTest" classname="com.example.board.service.ReplyServiceTests" time="0.001"/>
-    <testcase name="mapperTest" classname="com.example.board.service.ReplyServiceTests" time="0.0"/>
-  </testsuite>
-</testrun>

@@ -58,3 +58,9 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 2022-08-27 15:32:45.846 - Execution context opened (localhost; SQLEditor <board.sql>; 2)
 2022-08-27 15:32:46.688 - Open [https://dbeaver.io/product/version.xml]
 2022-08-27 15:32:52.916 - Execution context opened (localhost; SQLEditor <Script.sql>; 3)
+2022-08-27 20:09:28.288 - Execution context closed (localhost, 2)
+2022-08-27 20:09:28.318 - Execution context closed (localhost, 3)
+2022-08-27 20:09:28.518 - DBeaver is stopping
+2022-08-27 20:09:28.518 - Stop RMI server
+2022-08-27 20:09:28.522 - RMI controller has been stopped
+2022-08-27 20:09:28.544 - DBeaver shutdown completed
