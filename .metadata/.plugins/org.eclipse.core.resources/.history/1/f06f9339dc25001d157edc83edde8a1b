@@ -1,0 +1,29 @@
+package com.example.board.mapper;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import lombok.extern.log4j.Log4j;
+
+@RunWith(SpringRunner.class)
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
+@Log4j
+public class ReplyMapperTests {
+	private Long[] arBno = {10301, 10298, 10297, 10296, 10295}
+	
+	@Autowired
+	ReplyMapper replyMapper;
+	
+	@Test
+	public void mapperTest() {
+		log.info(replyMapper);
+	}
+	
+	@Test
+	public void insertTest() {
+		//5개의 게시글에 2개씩 댓글 달기
+	}
+}

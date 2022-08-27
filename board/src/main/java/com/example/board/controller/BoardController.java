@@ -38,7 +38,7 @@ public class BoardController {
 	public void list(Criteria criteria, Model model) {
 		log.info("list...");
 		model.addAttribute("boardList", boardService.getList(criteria));
-		model.addAttribute("pageDTO", new PageDTO(boardService.getTotal(), criteria));
+		model.addAttribute("pageDTO", new PageDTO(boardService.getTotal(criteria), criteria));
 	}
 	
 	//redirect : 클라이언트의 요청에 의해 서버의 DB에 변화가 생기는 작업
@@ -88,8 +88,10 @@ public class BoardController {
 		if(boardService.modify(boardVO)) {
 			rttr.addFlashAttribute("result", "success");
 		}
-		rttr.addAttribute("pageNum", criteria.getPageNum());
-		return "redirect:/board/list";
+//		rttr.addAttribute("pageNum", criteria.getPageNum());
+//		rttr.addAttribute("type", criteria.getType());
+//		rttr.addAttribute("keyword", criteria.getKeyword());
+		return "redirect:/board/list" + criteria.getParams();
 	}
 	
 	@GetMapping("/register")

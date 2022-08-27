@@ -1,0 +1,18 @@
+package com.example.board.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.board.domain.vo.ReplyVO;
+
+@Service
+public interface ReplyService {
+	
+		public int insert(ReplyVO replyVO);
+		public ReplyVO select(Long rno); 
+		public int delete(Long rno);
+		public int deleteAll(Long bno);
+		public int update(ReplyVO replyVO);
+		public List<ReplyVO> selectAll(Long bno);
+}

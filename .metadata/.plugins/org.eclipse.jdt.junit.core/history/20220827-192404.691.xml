@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ReplyDAOTests" project="board" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.board.domain.dao.ReplyDAOTests" time="0.049">
+    <testcase name="registerTest" classname="com.example.board.domain.dao.ReplyDAOTests" time="0.048"/>
+    <testcase name="mapperTest" classname="com.example.board.domain.dao.ReplyDAOTests" time="0.0"/>
+  </testsuite>
+</testrun>

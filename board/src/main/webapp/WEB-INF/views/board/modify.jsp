@@ -30,6 +30,8 @@
 							<!-- get방식으로 가면 안되므로 -->
 							<form action="/board/modify" method="post">
 								<input type="hidden" name="pageNum" value="${criteria.pageNum}">
+								<input type="hidden" name="type" value="${criteria.type}">
+							 	<input type="hidden" name="keyword" value="${criteria.keyword}">
 								<div class="fields">
 									<div class="field">
 										<h4>번호</h4>

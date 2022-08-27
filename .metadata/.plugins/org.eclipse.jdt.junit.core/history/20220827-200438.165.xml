@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ReplyServiceTests" project="board" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.board.service.ReplyServiceTests" time="0.074">
+    <testcase name="removeTest" classname="com.example.board.service.ReplyServiceTests" time="0.052"/>
+    <testcase name="findAllByBNOTest" classname="com.example.board.service.ReplyServiceTests" time="0.022"/>
+    <testcase name="mapperTest" classname="com.example.board.service.ReplyServiceTests" time="0.0"/>
+  </testsuite>
+</testrun>

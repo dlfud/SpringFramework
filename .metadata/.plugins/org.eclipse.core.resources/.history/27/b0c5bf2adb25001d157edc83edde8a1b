@@ -1,0 +1,8 @@
+package com.example.board.mapper;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface ReplyMapper {
+	public int insert(ReplyVO replyVO);//1일때 성공 0일때 실패
+}

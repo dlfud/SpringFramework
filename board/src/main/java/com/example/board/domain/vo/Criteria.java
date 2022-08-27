@@ -26,7 +26,10 @@ public class Criteria {
 	}
 	
 	public String getParams() {
-		UriComponentsBuilder builder = UriComponentsBuilder.fromPath("").queryParam("pageNum", this.pageNum);
+		UriComponentsBuilder builder = UriComponentsBuilder.fromPath("")
+				.queryParam("pageNum", this.pageNum)
+				.queryParam("type", this.type)
+				.queryParam("keyword", this.keyword);
 		return builder.toUriString();
 	}
 
