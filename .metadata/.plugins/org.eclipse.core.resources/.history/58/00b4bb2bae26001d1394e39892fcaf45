@@ -1,0 +1,25 @@
+/**
+ * javascript 모듈화
+ * 
+ * 함수들을 하나의 모듈처럼 묶음으로 구성하는 것을 의미한다.
+ * 화면 내에서 Javascript를 처리하다 보면 이벤트 처리, DOM, Ajax처리등
+ * 복잡하게 섞여서 유지보수가 힘들다. 따라서 Javascript코드를 여러 부품으로 분리하여 조립하는 형식으로 설계한다. 
+ *
+ * JS -> {key : value}
+ * Json -> {"key" : value} : key값에 무조건 ""이 있어야 함
+ */
+ 
+ console.log("Reply Module...");
+ let replyService = (function(){
+ 	
+ 	//추가하기
+ 	function add(reply){
+ 		console.log("add reply...");
+ 		$.ajax({
+ 			url: "/replies/new",
+ 			data: reply
+ 		})
+ 	}
+ 	
+ 	return {add: add}
+ })();

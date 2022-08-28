@@ -67,4 +67,21 @@
 	<script src="/resources/assets/js/breakpoints.min.js"></script>
 	<script src="/resources/assets/js/util.js"></script>
 	<script src="/resources/assets/js/main.js"></script>
+	<script src="/resources/assets/js/reply.js"></script>
+	<script>
+		let bno = "${board.bno}";
+	
+		console.log("===JS TEST===");
+		
+		//reply.js에 있는 add함수를 사용
+		replyService.add({
+			//bno(key)는 replyVO에 있는 필드명과 같아야 함
+			//이 3가지 정보가 자바스크립트로 묶여서 날라감
+			bno: bno,
+			reply:"모듈화 테스트",
+			replier:"abc"
+		}, function(result){//callback함수	
+				console.log(result);
+		});
+	</script>
 </html>
